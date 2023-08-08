@@ -26,7 +26,7 @@ class Migration(migrations.Migration):
                 ('username', models.CharField(max_length=150)),
                 ('email', models.EmailField(max_length=254, unique=True)),
                 ('password', models.CharField(max_length=128)),
-                ('profile_picture', models.ImageField(blank=True, null=True, upload_to='profile_pictures/')),
+                # ('profile_picture', models.ImageField(blank=True, null=True, upload_to='profile_pictures/')),
             ],
         ),
         migrations.CreateModel(
