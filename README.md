@@ -1,27 +1,5 @@
 # blogAPP-restframework
 
-# საინფორმაციო ერთეულები მონაცემთა ბაზაში ბლოგის დიზაინისთვის შეიძლება შეიცავდეს შემდეგს:
-
-## Post: / პოსტი:
-
-     - სათაური / Title (CharField): The title of the blog post.
-     - შინაარსი  / Content (TextField): The main content of the blog post.
-     - ავტორი  /   Author (ForeignKey): A reference to the user who wrote the blog post.
-     - გამოქვეყნების თარიღი /  Date Published (DateTimeField): The date and time when the blog post was published. 
-     - კატეგორია / Category (ForeignKey): A reference to the category/topic the blog post belongs to.
-
-
-## Category/Topic: / კატეგორია/თემა:
-
-     - სახელი: კატეგორიის ან თემის სახელი. / Name (CharField): The name of the category or topic.
-
-## User: / მომხმარებელი:
-
-     - მომხმარებლის სახელი / Username (CharField): The username of the user.
-     - ელფოსტა / Email (EmailField): The email address of the user.
-     - პაროლი / Password (CharField): The hashed password of the user.
-     - პროფილის სურათი (არასავალდებულო) / Profile Picture (ImageField): An optional profile picture for the user.
-
 # plan to make this all work:
 
 # Back-end tasks
@@ -32,7 +10,7 @@
      შექმენით ახალი Django პროექტი.
      დააყენეთ მონაცემთა ბაზა და დააკავშირეთ იგი პროექტთან.
 
-## Step 2: Define Models / განსაზღვეთ მოდელები
+## Step 2: Define Models / განსაზღვრეთ მოდელები
     Define the models (Post, Category, User) with their respective fields.
     განსაზღვრეთ მოდელები (Post, Category, User) შესაბამისი ველებით.
 
@@ -79,34 +57,4 @@
 
 
 
-
-# Front-end tasks:
-
-## Step 1: Design Integration / დიზაინის ინტეგრაცია
-     Convert the Figma design into HTML, CSS, and JavaScript.
-     Implement responsive design to ensure the blog looks good on various devices.
-     გადააკეთეთ Figma დიზაინი HTML, CSS და JavaScript-ად.
-     განახორციელეთ რესპონსივ დიზაინი, რათა დარწმუნდეთ, რომ ბლოგი კარგად გამოიყურება სხვადასხვა მოწყობილობებზე.
-
-## Step 2: Fetching Data / მონაცემების მიღება
-     Use API calls to fetch blog posts and categories from the Django backend.
-     Display the fetched data on the blog's homepage and category pages.
-     გამოიყენეთ API fetch-ი, რათა მიიღოთ ბლოგის პოსტები და კატეგორიები Django backend-იდან.
-     მოტანილი მონაცემების ჩვენება ბლოგის მთავარ გვერდზე და კატეგორიის გვერდებზე.
-
-## Step 3: Blog Post Page / ბლოგის პოსტის გვერდი
-     Create a template to display individual blog posts with their full content, author, date, and category.
-     Implement the necessary logic to navigate from the homepage to a specific blog post page.
-     შექმენით შაბლონი ინდივიდუალური ბლოგის პოსტების საჩვენებლად მათი სრული შინაარსით, ავტორით, თარიღით და კატეგორიით.
-     განახორციელეთ საჭირო ლოგიკა საწყისი გვერდიდან კონკრეტულ ბლოგის პოსტის გვერდზე გადასასვლელად.
-
-## Step 4: User Registration and Login / მომხმარებლის რეგისტრაცია და შესვლა
-     Design and implement user registration and login forms.
-     Use AJAX or API calls to handle user authentication.
-     მომხმარებლის რეგისტრაციისა და შესვლის ფორმების შემუშავება და დანერგვა.
-     გამოიყენეთ AJAX ან API მომხმარებლის ავთენტიფიკაციის დასამუშავებლად.
-
-## Step 5: User Profile / მომხმარებლის პროფილი
-     Design and implement a user profile page where users can view and update their information, including the profile picture.
-     შეიმუშავეთ და დანერგეთ მომხმარებლის პროფილის გვერდი, სადაც მომხმარებლებს შეუძლიათ ნახონ და განაახლონ თავიანთი ინფორმაცია, პროფილის სურათის ჩათვლით.
 
