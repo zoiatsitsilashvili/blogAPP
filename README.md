@@ -1,4 +1,4 @@
-# blogAPP-restframework
+# blog APP
 
 ## plan to make this all work:
 
