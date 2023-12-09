@@ -1,8 +1,8 @@
 # blogAPP-restframework
 
-# plan to make this all work:
+## plan to make this all work:
 
-# Back-end tasks
+## Back-end tasks
 
 ## Step 1: Set up Django Project / 
      Create a new Django project.
